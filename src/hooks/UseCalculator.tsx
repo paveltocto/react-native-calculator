@@ -22,7 +22,7 @@ export const useCalculator = () => {
 
     if (number.includes('-')) {
       negative = '-';
-      numberTemp = number.substr(1);
+      numberTemp = number.substring(1);
     }
 
     if (numberTemp.length > 1) {
